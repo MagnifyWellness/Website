@@ -41,8 +41,8 @@
 
 @media only screen and (max-width:1200px){
     .abby-photo{
-        /*margin-left: 20em;*/
-        margin:auto;
+        margin-left: 120%;
+        
     }
     
     .delete{
