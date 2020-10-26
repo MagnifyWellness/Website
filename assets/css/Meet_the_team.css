@@ -15,7 +15,8 @@
     
 }
 .abby .abby-photo{
-    width:100em;
+    width:16em;
+    min-width: 16em;
     border-radius: 50%;
     border-color: rgb(142, 151, 150);
     border-width: thick;
@@ -37,8 +38,19 @@
     margin-top:0em;
     
 }
+
 @media only screen and (max-width:1200px){
     .abby-photo{
-        
+        /*margin-left: 20em;*/
+        margin:auto;
+    }
+    
+    .delete{
+        width:0px;
+        padding:0px;
+        height: 0px;
+    }
+    .text{
+        padding-top: 17em;
     }
 }
