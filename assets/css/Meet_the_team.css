@@ -38,8 +38,24 @@
     margin-top:0em;
     
 }
-
-@media only screen and (max-width:1200px){
+.col-card{
+    margin-bottom: 2em;
+}
+@media only screen and (max-width:991px){
+    .abby-photo{
+        margin-left:30%;
+    }
+    .Middle{
+        font-size:300%;
+    }
+}
+@media only screen and (max-width:767px){
+    .abby-photo{
+        margin-left:24%;
+        width:50%;
+    }
+}
+/*@media only screen and (max-width:1200px){
     .abby-photo{
         margin-left: 120%;
         
@@ -53,4 +69,4 @@
     .text{
         padding-top: 17em;
     }
-}
+}*/
